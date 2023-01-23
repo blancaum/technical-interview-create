@@ -1,0 +1,33 @@
+.footer {
+    background-color: $color-primary;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 16px;
+
+    @include menu-styles;
+
+    .menu {
+        &__item {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+    }
+
+    .menu-social {
+        display: flex;
+
+        &__item {
+            padding: 20px 15px;
+            background-color: $color-social;
+
+            &--link {
+                padding: 15px;
+                color: $color-secondary-text;
+                text-decoration: none;
+            }
+        }
+    }
+}
