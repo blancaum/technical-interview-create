@@ -1,0 +1,27 @@
+.articles {
+    margin: 20px;
+
+    &__post {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        border-bottom: solid 1px $color-primary-text;
+
+        &--title {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        &--text {
+            font-size: 1rem;
+        }
+
+        &--quote {
+            font-size: 1rem;
+            margin-left: 30px;
+            padding-left: 20px;
+            border-left: solid 5px $color-blockquote;
+            margin-right: 60px;
+        }
+    }
+}
