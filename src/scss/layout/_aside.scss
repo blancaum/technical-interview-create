@@ -12,10 +12,11 @@
     }
 
     @include desktop {
-        height: 70vh;
+        height: calc(95vh - 130px);
         flex-direction: column;
         justify-content: flex-start;
         margin-bottom: 0;
+        flex-wrap: nowrap;
     }
 
     &__block {
