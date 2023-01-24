@@ -1,7 +1,7 @@
-![create-brand](https://user-images.githubusercontent.com/13077932/214291464-41f7f2a5-506f-43d7-99a1-fe4fb85b7326.png)
+[![create-brand](https://user-images.githubusercontent.com/13077932/214291464-41f7f2a5-506f-43d7-99a1-fe4fb85b7326.png)](https://www.create-store.com/es/)
 
 
-# ![logo](https://user-images.githubusercontent.com/13077932/214291561-27787104-4633-42ea-933d-ce72654eb429.png) Technical Interview CREATE ![logo](https://user-images.githubusercontent.com/13077932/214291561-27787104-4633-42ea-933d-ce72654eb429.png)
+# ![logo](https://user-images.githubusercontent.com/13077932/214291561-27787104-4633-42ea-933d-ce72654eb429.png) [Technical Interview CREATE](https://blancaum.github.io/technical-interview-create/) ![logo](https://user-images.githubusercontent.com/13077932/214291561-27787104-4633-42ea-933d-ce72654eb429.png)
 
 ## Author: Blanca Ubis Martínez
 
@@ -21,9 +21,20 @@ For this project, it was required to:
 
 ## Results:
 
-The results are a **completely responsive web** that **matches perfectly** the images sent. Furthermore:
+The results are a **completely responsive web** that **matches perfectly** the images sent. See the [deployed webpage](https://blancaum.github.io/technical-interview-create/).
+Furthermore:
 1. I have chosen to not show the aside on the mobile version (as shown on the image requirements) and to put the aside below the articles on the tablet version.
 2. The menu has a hover transition that makes the background color appear gradually.
+3. The links are functional and work exactly as they do on the Create Store webpage (using target blank when necessary).
+
+![mobile-results](https://user-images.githubusercontent.com/13077932/214295613-0f481655-c672-4cf2-bbb2-8f153992af36.png)
+- Fig. 3: Mobile version results.
+
+![tablet-results](https://user-images.githubusercontent.com/13077932/214295686-95e2fe34-e557-4087-9d90-91535b6a6d60.png)
+- Fig. 4: Tablet version results.
+
+![desktop-results](https://user-images.githubusercontent.com/13077932/214295847-e1f6f271-82a6-43ba-b678-ae9d04a184c1.png)
+- Fig. 5: Desktop version results.
 
 ## Additional Information:
 
