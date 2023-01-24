@@ -1,5 +1,10 @@
 .articles {
-    margin: 20px;
+    padding: 20px;
+    background-color: white;
+
+    @include desktop {
+        width: 700px;
+    }
 
     &__post {
         padding-bottom: 16px;
