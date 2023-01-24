@@ -1,0 +1,31 @@
+.aside {
+
+    @include tablet {
+        background-color: $color-aside;
+        padding: 30px;
+        margin-bottom: 130px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+    }
+
+    @include desktop {
+        height: 70vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+
+    &__block {
+        @include tablet {
+            background-color: $color-primary;
+            height: 150px;
+            width: 241px;
+        }
+
+    }
+
+
+}

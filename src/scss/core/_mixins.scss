@@ -1,13 +1,13 @@
 //responsive
 
 @mixin tablet {
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 500px) {
         @content
     }
 }
 
 @mixin desktop {
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
         @content
     }
 }
