@@ -1,61 +1,81 @@
-# Technical Interview CREATE
+![create-brand](https://user-images.githubusercontent.com/13077932/214291464-41f7f2a5-506f-43d7-99a1-fe4fb85b7326.png)
 
-## Autora/s: Blanca Ubis Martínez
 
-Basado en el [**Adalab Starter Kit**](https://github.com/Adalab/adalab-web-starter-kit).
+# ![logo](https://user-images.githubusercontent.com/13077932/214291561-27787104-4633-42ea-933d-ce72654eb429.png) Technical Interview CREATE ![logo](https://user-images.githubusercontent.com/13077932/214291561-27787104-4633-42ea-933d-ce72654eb429.png)
 
-En este proyecto hay 3 tipos de ficheros y carpetas:
+## Author: Blanca Ubis Martínez
 
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- La carpeta `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `docs/`.
+## Project Requirements:
 
-## Guía de inicio rápido
+For this project, it was required to:
+1. Replicate a webpage for mobile, tablet and desktop using HTML, CSS and preferably not a CSS framework (such as Bootstrap).
+2. Add a hover state for the menu links, and animate it.
+3. Try to make a tablet version (between 500px and 1024px) that could be adequate given the mobile (Fig. 1) and desktop (Fig. 2) requirements.
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este proyecto:
 
-### Pasos a seguir si queremos arrancar un proyecto basado en este desde cero:
+![mobile](https://user-images.githubusercontent.com/13077932/214293416-549f1e5c-36d5-4c8a-96d0-c0c03c8f0916.png)
+- Fig. 1: Mobile version required.
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **proyecto desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este proyecto en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos**.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+![desktop](https://user-images.githubusercontent.com/13077932/214293422-1d9b4ad5-ed3c-4598-92ad-fa8c675b7f8f.png)
+- Fig. 2: Desktop version required.
+
+## Results:
+
+The results are a **completely responsive web** that **matches perfectly** the images sent. Furthermore:
+1. I have chosen to not show the aside on the mobile version (as shown on the image requirements) and to put the aside below the articles on the tablet version.
+2. The menu has a hover transition that makes the background color appear gradually.
+
+## Additional Information:
+
+Based on the [**Adalab Starter Kit**](https://github.com/Adalab/adalab-web-starter-kit).
+
+In this project you will find 3 types of files and folders:
+
+- The files that are on the root of the repository, such as gulpfile.js, package.json... They are the configuration of the project, and they allow us to install the necessary npm packages, to join the HTML and SCSS partials and to create the development (folder `public`, not in github) and production ( folder `docs`) folders. See below for more information on the specific commands.
+- The folder `src/`:  our web page files, such as HTML, CSS, JS...
+- The folder `docs/`, generated automatically when we deploy the project. This kit reads the files that are inside `src/`, it process them and it generates the necessary files and folders inside `docs/`.
+
+## Quick Start Guide
+
+> **NOTE:** You must have installed [Node JS](https://nodejs.org/) to work with this project:
+
+### Steps to follow if we want to start this project on our own computer:
+
+1. **Clone this repository**
+2. **Abre una terminal** en la carpeta raíz de tu repositorio.
+3. **Instala las dependencias** locales ejecutando en la terminal el comando:
 
 ```bash
 npm install
 ```
 
-### Pasos para arrancar el proyecto:
+### Steps for starting the project:
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+Once we have installed the dependencies, we are going to start the project. **The project must be started every time you start programming ** To do this run the command:
 
 ```bash
 npm start
 ```
 
-Este comando:
+This command:
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-  - Convierte los ficheros SASS en CSS.
-  - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+- **Opens a Chrome window and displays your web page**, just like the VS Code Live Server (Go live) plugin does.
+- It also **watches** all the files inside the `src/` folder, so that every time you modify a file it **refreshes your page in Chrome**.
+- It also **processes the files** HTML, SASS / CSS and JS and **generates and saves them in the `public/`** folder. For example:
+  - Converts SASS files to CSS.
+  - Combines the different HTML files and groups them into one or several HTML files.
 
-Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
+After running `npm start` you can see the how the webpage works and edit the files inside the `src/` folder if you want to change anything. However, if you want to make any commit with the changes you will have to make your own repository.
 
-### Pasos para generar la carpeta docs:
+### Steps to generate the docs folder:
 
-Ejecutar el siguiente comando:
+Run the following command:
 
 ```bash
 npm run docs
 ```
 
-- Ello nos generará una carpeta `docs/` que subiremos al repositorio.
-- Posteriormente, con GitHub pages le indicaremos que la utilice para generar la web de nuestro proyecto.
-- Habrá que ejecutar este comando al final del proyecto cuando ya esté terminado y queramos publicarlo.
-- Si hacemos algún cambio habrá que ejecutarlo de nuevo y subir la carpeta `docs/` nuevamente al repositorio.
+- This will generate a `docs/` folder that we will upload to the repository.
+- Later, with GitHub pages we will tell it to use it to generate the web of our project.
+- We will have to execute this command at the end of the project when it is finished and we want to publish it.
+- If we make any changes we will have to run it again and upload the `docs/` folder back to the repository.
