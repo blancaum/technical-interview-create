@@ -10,7 +10,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        gap: 167px;
+        //gap: 167px;
         padding-left: 97px;
         padding-right: 97px;
     }
@@ -30,6 +30,10 @@
 
     &__nav {
         width: 100%;
+
+        @include desktop {
+            max-width: 479px;
+        }
     }
 
     @include menu-styles;
