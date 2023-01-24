@@ -29,6 +29,12 @@
             margin-left: 0px;
             margin-right: 0px;
         }
+
+        &__item:hover {
+            background-color: $color-hover;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
     }
 
     .menu-social {
@@ -38,6 +44,7 @@
         &__item {
             padding: 15px;
             background-color: $color-social;
+            transition: 1s ease;
 
             &--link {
                 padding-top: 15px;
@@ -45,6 +52,10 @@
                 color: $color-secondary-text;
                 text-decoration: none;
             }
+        }
+
+        &__item:hover {
+            background-color: lighten($color-social, 10%);
         }
     }
 }
