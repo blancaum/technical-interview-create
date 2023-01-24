@@ -20,11 +20,12 @@
         display: flex;
 
         &__item {
-            padding: 20px 15px;
+            padding: 15px;
             background-color: $color-social;
 
             &--link {
-                padding: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
                 color: $color-secondary-text;
                 text-decoration: none;
             }

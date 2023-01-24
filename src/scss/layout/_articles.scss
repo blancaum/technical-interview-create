@@ -2,26 +2,40 @@
     margin: 20px;
 
     &__post {
-        padding-bottom: 20px;
-        margin-bottom: 30px;
+        padding-bottom: 16px;
         border-bottom: solid 1px $color-primary-text;
+
+        &:last-child {
+            border: none;
+            padding-bottom: 0;
+        }
 
         &--title {
             font-weight: bold;
             font-size: 1.5rem;
-            margin-bottom: 20px;
+            margin-top: 22px;
+            margin-bottom: 14px;
+        }
+
+        &--title-quote {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-top: 22px;
+            margin-bottom: 19px;
         }
 
         &--text {
             font-size: 1rem;
+            line-height: 1.1;
         }
 
         &--quote {
             font-size: 1rem;
             margin-left: 30px;
+            margin-right: 60px;
             padding-left: 20px;
             border-left: solid 5px $color-blockquote;
-            margin-right: 60px;
+            line-height: 1.1;
         }
     }
 }
