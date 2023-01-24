@@ -1,22 +1,26 @@
 .footer {
     background-color: $color-primary;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     padding-top: 20px;
     padding-bottom: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
     @include menu-styles;
 
     .menu {
-        &__item {
-            padding-right: 30px;
-            padding-left: 30px;
-        }
+        margin-left: 47px;
+        margin-right: 47px;
+
+        &__item {}
     }
 
     .menu-social {
+        align-self: center;
         display: flex;
 
         &__item {
