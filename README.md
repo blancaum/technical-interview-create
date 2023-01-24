@@ -48,7 +48,7 @@ In this project you will find 3 types of files and folders:
 
 ## Quick Start Guide
 
-> **NOTE:** You must have installed [Node JS](https://nodejs.org/) to work with this project:
+> **NOTE:** You must have installed [Node JS](https://nodejs.org/) to work with this project.
 
 ### Steps to follow if we want to start this project on our own computer:
 
