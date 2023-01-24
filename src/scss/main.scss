@@ -7,10 +7,4 @@
  @import 'layout/header';
  @import 'layout/articles';
  @import 'layout/footer';
- // @import 'pages/index';
-
- body {
-     font-family: $font-primary;
-     color: $color-primary-text;
-     height: 100vh;
- }
+ @import 'pages/index';
