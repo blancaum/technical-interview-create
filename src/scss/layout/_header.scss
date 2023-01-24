@@ -6,6 +6,15 @@
     position: sticky;
     top: 0;
 
+    @include desktop {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 167px;
+        padding-left: 97px;
+        padding-right: 97px;
+    }
+
     &__title {
         display: flex;
         gap: 15px;
