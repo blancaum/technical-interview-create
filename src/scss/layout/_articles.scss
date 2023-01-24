@@ -9,6 +9,14 @@
             border: none;
             padding-bottom: 0;
             margin-bottom: 150px;
+
+            @include tablet {
+                margin-bottom: 0;
+            }
+
+            @include desktop {
+                margin-bottom: 150px;
+            }
         }
 
         &--title {
